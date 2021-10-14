@@ -1,0 +1,74 @@
+body{
+    background: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(./image/me1.jpeg);
+    font-family: 'Ubuntu', sans-serif;
+}
+
+/**---------------- Utilities---------------**/
+
+.items_center{
+    align-items: center;
+}
+.flex{
+    display: flex;
+
+}
+.flex-1{
+    flex:1;
+}
+.justify-between{
+    justify-content: space-between;
+}
+
+.justify-center{
+    justify-content: center;
+}
+
+/**---------------- Section Style---------------**/
+
+
+section.information{
+    font-size: 30px;
+    font-weight: 400;
+    text-align: center;
+    color: white;
+    padding-bottom: 3rem;
+}
+section.information .raj span{
+    color: red;
+}
+section.information .raj h3 span{
+    color: aqua;
+}
+
+section.information .raj h4{
+    font-weight: 400;
+}
+
+section.school{
+    color: bisque;
+    text-align: center;
+    padding: 2rem;
+}
+section.school img{
+    width:400;
+    height: 300;
+    border-radius: 20px;
+}
+section.school .right h1{
+    font-weight: 400;
+    font-size: 30px;
+    text-transform: uppercase;
+    text-align: center;
+}
+section.school .right h1 span{
+    color: red;
+    font-weight: 600;
+}
+
+
+section.school .right p span{
+    line-height: 1,9;
+    color: aqua;
+    font-size: 30px;
+    font-weight: 600;
+}
